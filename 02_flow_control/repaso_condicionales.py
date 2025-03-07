@@ -4,9 +4,8 @@ os.system('cls' if os.name == 'nt' else 'clear')
 num = float(input("Introduce tu edad: "))
     
 if num < 18:
-    print("Eres menos de edad 👶 ➖")
+    print(f"Eres menor de edad 👶 y el valor booleano de {num} es {bool(num)}")
 elif num > 18:
-    print("Eres mayor de edad 🙆‍♂️")
+    print(f"Eres mayor de edad 🙆‍♂️ y el valor booleano de {num} es {bool(num)}")
 else:
-    print("Felicidades!! 👌")
-   
+    print(f"Felicidades!! 👌 El valor booleano de {num} es {bool(num)}")
