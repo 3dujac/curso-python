@@ -17,7 +17,7 @@ print(f"Hola {nombre}, encantado de conocerte")
 age = input("¿Cuántos años tienes?\n")
 age = int(age)
 print(f"Tienes {age} años")
-
+print(f"El año que viene tendrás {age + 1} años")
 # La función input() también puede devolver múltiples valores
 # Para hacerlo, el usuario debe separar los valores con una coma
 print("Obtener múltiples valores a la vez")
