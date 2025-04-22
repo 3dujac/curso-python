@@ -20,10 +20,13 @@ print(listac[0][1])
 print(listac[1][0])
 print(listac[1][1])
 
-lista2 = [1, 2, 3, 4, 5]
+lista2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("-imprimir indicado el paso-")
 print(lista2[::-1])
 
 print("-aquí va el for-")
 for i in lista2:
     print(i)
+
+print("prueba rango raro")
+print(lista2[1:-1])
