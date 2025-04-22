@@ -30,3 +30,5 @@ for i in lista2:
 
 print("prueba rango raro")
 print(lista2[1:-1])
+
+print("La longitud de la lista es: ", len(lista2))
